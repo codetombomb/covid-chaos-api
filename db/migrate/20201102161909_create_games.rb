@@ -1,6 +1,7 @@
 class CreateGames < ActiveRecord::Migration[6.0]
   def change
     create_table :games do |t|
+      t.integer :player_id
       t.integer :score
       t.integer :time
       t.integer :sanitizer_collected
