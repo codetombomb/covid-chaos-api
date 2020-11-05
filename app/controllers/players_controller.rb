@@ -3,12 +3,12 @@ class PlayersController < ApplicationController
 
     def index
         players = Player.all 
-        render json: players
+        render json: players, include: :games
     end
 
     def show
         if @player
-            render json: @player
+            render json: @player, include: :games
         else 
             render json: {error: "Player not found"}
         end
