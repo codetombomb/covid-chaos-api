@@ -6,6 +6,7 @@ ruby '2.6.1'
 #******************************************************************
 #                             ADDED GEMS
 gem 'faker'
+gem 'awesome_print'
 #******************************************************************
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
