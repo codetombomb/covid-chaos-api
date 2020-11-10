@@ -25,7 +25,6 @@ class GamesController < ApplicationController
         sorted = @games.sort_by(&:score)
         top_five = sorted.pop(5).reverse
         render json: top_five, include: :player
-
     end
 
     private 

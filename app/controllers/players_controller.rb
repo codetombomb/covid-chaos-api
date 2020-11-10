@@ -7,6 +7,10 @@ class PlayersController < ApplicationController
         render json: @players, include: :games
     end
 
+    def create
+        byebug
+    end
+
     def show
         if @player
             render json: @player, include: :games
