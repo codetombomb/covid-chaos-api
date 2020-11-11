@@ -7,13 +7,19 @@ class GamesController < ApplicationController
     end
 
     def create
+        if Player.find_by(username: params['username']) == nil
+            player = Player.create(username: params['username'])
+        else
+            player = Player.find_by(username: params['username'])          
+        end
         game = Game.create(
-            player_id: params[:player_id],
-            score: params[:score], 
+            player_id: player.id,
             time: params[:time], 
+            score: params[:score],
             sanitizer_collected: params[:sanitizer_collected], 
             tp_collected: params[:tp_collected] 
             )
+            # byebug
         if game.save
             render json: game
         else 
