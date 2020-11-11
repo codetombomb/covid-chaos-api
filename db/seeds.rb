@@ -23,12 +23,10 @@ end
 Player.all.each do |player|
     time_points = rand(20..150)
     sanitizer_coll = rand(5..15)
-    sanitizer_points = sanitizer_coll * 5
     tp_coll = rand(5..16)
-    tp_points = tp_coll * 10
     Game.create(
         player_id: player.id,
-        score: (tp_points + sanitizer_points) + time_points,
+        score: 10,
         time: time_points,
         sanitizer_collected: sanitizer_coll,
         tp_collected: tp_coll
