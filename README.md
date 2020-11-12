@@ -6,13 +6,11 @@
 * Running the local server
     * Stopping the local server
 * Routes 
-
-
 ### 👋🏼 Introduction 
 -----------------------------
 Current Maintainer: Tom Tobar <devtomtobar@gmail.com>
 
-Covid Chaos API was my Mod 3 project at Flatiron School. It was the end of February 2020 when Flatiron School and many other companies sent thier teams to work from home to self isolate. Toilet paper, and other essential items like hand sanitizer, became scarce as well as decency during the uncertain times. I knew I wanted to create a game for the project and thought that it would be a good distraction, to the madness unfolding around me, to tie the theme of the game to the chaos.  This is what I had in mind:
+Covid Chaos API was my Mod 3 project at Flatiron School. It was the end of February 2020 when Flatiron School and many other schools sent thier students to work from home and self isolate. Toilet paper, and other essential items like hand sanitizer, became scarce as well as decency during the uncertain times. I knew I wanted to create a game for the project and thought that it would be a good distraction, to the madness unfolding around me, to tie the theme of the game to the chaos.  This is what I had in mind:
 </br></br>
 ![Keynote Mock Up](app/assets/images/keynote.png)
 </br></br>
@@ -28,7 +26,7 @@ For the Rails backend, I wanted to keep it simple. Here is a wire frame with wha
 </br></br>
 ![Wire Frame](app/assets/images/relations.png)
 </br></br>
-I wanted to have a potentially sign up with username and password (and did implement that for the project) but ended up going old school with just an entry of the player name. Here is a look at the user story:
+I wanted to have a player potentially sign up with username and password (and did implement that for the project) but ended up going old school with just an entry of the player name. Here is a look at the user story:
 </br></br>
 ![User Story](app/assets/images/user_story.png)
 </br></br>
