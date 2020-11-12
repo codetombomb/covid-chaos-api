@@ -19,7 +19,7 @@ Covid Chaos API was my Mod 3 project at Flatiron School. It was the end of Febru
 This is a screen shot of a keynote presentation that I created for the pitch to my instructors. I originally thought that there might be monsters coming from the bottom of the canvas element to attack the player and covid viruses raining from above. The gameplay now has monsters and viruses both rainging from the top of the screen. 
 </br></br>
 The goal of the game is to collect as much hand sanitizer and toilet paper as possible to earn a slot in the Top 5 scores:
-</br></br>
+</br>
 * TP = 10 points
 * Sanitizer = 5 points
 * Bonus points: 1 bonus point will be added to overall score after player stays covid free for 30 seconds. 
