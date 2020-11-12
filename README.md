@@ -22,7 +22,7 @@ The goal of the game is to collect as much hand sanitizer and toilet paper as po
 </br>
 * TP = 10 points
 * Sanitizer = 5 points
-* Bonus points: 1 bonus point will be added to overall score after player stays covid free for 30 seconds. 
+* Bonus points: 1 bonus point for each second after 30 seconds. 
 </br></br>
 For the Rails backend, I wanted to keep it simple. Here is a wire frame with what I had originally planned:
 </br></br>
