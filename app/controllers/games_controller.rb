@@ -19,12 +19,16 @@ class GamesController < ApplicationController
             sanitizer_collected: params[:sanitizer_collected], 
             tp_collected: params[:tp_collected] 
             )
-            # byebug
         if game.save
             render json: game
         else 
             render json: {error: "There was a problem saving your game"}
         end
+    end
+
+    def delete_top_score
+        game = Game.all.sort_by(&:score).pop
+        game.destroy
     end
 
     def top_five
