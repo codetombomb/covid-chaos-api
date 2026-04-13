@@ -1,12 +1,15 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.1'
+ruby '3.3.6'
 
 #******************************************************************
 #                             ADDED GEMS
 gem 'faker'
 gem 'awesome_print'
+gem 'concurrent-ruby', '1.3.4'
+gem 'mutex_m'
+gem 'bigdecimal'
 #******************************************************************
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
